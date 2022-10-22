@@ -1,7 +1,7 @@
 
 #onePart{
 color : #00ffff;
-margin: 50px;
+margin: 10px;
 font-family : "Courier New", monospace;
 size : 30px;
 text-align: left;
@@ -9,7 +9,7 @@ text-align: left;
 
 #theOtherPart{
 color : white;
-margin: 50px;
+margin: 10px;
 font-family : "Courier New", monospace;
 size : 30px;
 text-align: left;

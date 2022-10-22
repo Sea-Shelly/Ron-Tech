@@ -1,6 +1,13 @@
 
 
 #onePart{
+color : #00ffff;
+margin: 2px;
+font-family : "Courier New", monospace;
+size : 30px;
+}
+
+#theOtherPart{
 color : white;
 margin: 2px;
 font-family : "Courier New", monospace;

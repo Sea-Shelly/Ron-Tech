@@ -19,7 +19,7 @@ h1{
 margin: 0;
 color : green;
 font-family : "Courier New", monospace;
-text-align center
+text-align : center
 size : 100px;
 }
 
@@ -27,7 +27,7 @@ h2{
 margin: 0;
 color : green;
 font-family : "Courier New", monospace;
-text-align center
+text-align : center
 size : 70px;
 }
 
@@ -35,7 +35,7 @@ h1{
 margin: 0;
 color : green;
 font-family : "Courier New", monospace;
-text-align center
+text-align : center
 size : 50px;
 }
 body{

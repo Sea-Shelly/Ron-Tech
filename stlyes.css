@@ -22,8 +22,30 @@ body{
 	background: black;
 	text-align: center;
 	size : 35px
+
 }
 p{
 text-align: left;
 margin: 10px;
+}
+#indication{
+text-align: left;
+margin: 2px;
+display:inline-block;margin-left;2px;
+width : 10px;}
+
+
+input[type = text]{
+background-color: black;
+margin: 10px;
+display : inline-block;
+border : none;
+text-align:left;
+width : 100px;
+color : green;
+font-family : "Courier New", monospace;
+size : 50px;
+display:inline-block;
+
+
 }

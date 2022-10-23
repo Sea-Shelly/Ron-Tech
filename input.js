@@ -8,4 +8,5 @@ document.getElementById('userInput').onkeydown =function(event){
 
 function returnText(){
     let input = document.ElementById("userInput").value;
+
 }

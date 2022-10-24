@@ -1,19 +1,13 @@
 
-var input;
-document.getElementById("userInput").onKeyDown =function(event){
-    if(event.keyCode ==13){
-    returnText();
-    }
-}
 
-while(event.keyCode != 13){
-if(input.toLowerCase() == "new"){
-window.location.replace("www.youtube.com");;
-} else if(input.toLowerCase() == "username"){
-}
-}
 
-function returnText(){
-    let input = document.ElementById("userInput").value;
+var input;;
 
+input.addEventListener("push", getInput);
+
+function getInput(){
+    if(event.code("Enter")){
+   let input = document.getElementById("userInput");
+   alert("The entered button has been pressed");
+   }
 }

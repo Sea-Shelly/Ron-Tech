@@ -1,7 +1,7 @@
 
 
 
-var input;;
+var input;
 
 input.addEventListener("push", getInput);
 

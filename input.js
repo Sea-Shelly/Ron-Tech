@@ -3,7 +3,9 @@
 
 var input;
 
-input.addEventListener("Keyboard",document.getElementById("userInput"));
+new InputEvent("userInput");
+
+input.addEventListener("Keyboard",userInput);
 
 function getInput(){
     if(event.code("Enter")){

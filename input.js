@@ -5,7 +5,7 @@ var input;
 
 new InputEvent("userInput");
 
-input.addEventListener("Keyboard",userInput);
+input.addEventListener("Keyboard",InputEvent);
 
 function getInput(){
     if(event.code("Enter")){

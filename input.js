@@ -6,10 +6,13 @@ var x;
 
 
 
-document.getElementById("userInput").addEventListener('keydown', (event) =>{
+document.getElementById("userInput").addEventListener("keypress", (event) =>{
 
-let  x = event.key;
-getInput(event);
+if(event.keycode == 13){
+let phrase = document.getElementById("userInput").value();
+alert(phrase);
+return;
+}
 
 });
 
@@ -18,6 +21,6 @@ getInput(event);
 function getInput(event){
     if(x == "Enter"){
    let phrase = document.getElementById("userInput");
-   alert("The entered button has been pressed");
+   alert("The enter button has been pressed");
    }
 }

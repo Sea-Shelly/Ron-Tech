@@ -2,11 +2,17 @@
 
 
 var phrase;
-var x = event.key;
+var x;
 
 
 
-document.getElementById("userInput").addEventListener("input", getInput());
+document.getElementById("userInput").addEventListener('keydown', (event) =>{
+
+let  x = event.key;
+getInput(event);
+
+});
+
 
 
 function getInput(event){

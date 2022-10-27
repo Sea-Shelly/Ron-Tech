@@ -6,7 +6,7 @@ var phrase;
 
 
 document.getElementById("userInput").addEventListener(input, getInput());
-}
+
 
 function getInput(){
     if(event.code("Enter")){

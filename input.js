@@ -5,7 +5,7 @@ var phrase;
 
 
 
-document.getElementById("userInput").addEventListener(input, getInput());
+document.getElementById("userInput").addEventListener("input", getInput());
 
 
 function getInput(){

@@ -1,16 +1,16 @@
 
 
 
-var input;
+var phrase;
 
 
 
-document.getElementById("userInput").addEventListener(Input, getInput());
+document.getElementById("userInput").addEventListener(input, getInput());
 }
 
 function getInput(){
     if(event.code("Enter")){
-   let input = document.getElementById("userInput");
+   let phrase = document.getElementById("userInput");
    alert("The entered button has been pressed");
    }
 }
